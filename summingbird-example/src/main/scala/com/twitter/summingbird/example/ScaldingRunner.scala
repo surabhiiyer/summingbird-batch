@@ -13,15 +13,16 @@ import org.apache.hadoop.conf.Configuration
 object ScaldingRunner {
   final val MillisInHour = 60 * 60 * 1000
 
-  final val JobDir = "hdfs://172.16.4.147:8020:user/st891x/summingbird"
+  //final val JobDir = "hdfs://172.16.4.147:8020:user/st891x/summingbird"
   
+  final val JobDir = "/Users/surabhi.ravishankar/summingbird-batch/summingbird-example/src/main/scala/com/twitter/summingbird/example"
   import Serialization._, StatusStreamer._
 
   val now = System.currentTimeMillis
   val waitingState = HDFSState(JobDir + "/waitstate", startTime = Some(Timestamp(now - 2 * MillisInHour)), numBatches = 3)
   
-  val src: Producer[Scalding, String] = Producer.source[Scalding, String](Scalding.pipeFactoryExact(_ => TextLine(JobDir + "/input")))
-  val versionedStore = VersionedStore[String, Long](JobDir + "/store")
+  val src: Producer[Scalding, String] = Producer.source[Scalding, String](Scalding.pipeFactoryExact(_ => TextLine(JobDir + "/input.txt")))
+  val versionedStore = VersionedStore[String, Long](JobDir + "/store.txt")
   val store = new InitialBatchedStore(batcher.currentBatch - 2L, versionedStore)
 
 //	val vbs = new VersionedBatchStore[String, Long, String, Long](inout, 3, batcher)(null)(identity)

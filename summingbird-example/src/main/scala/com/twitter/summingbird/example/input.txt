@@ -1,0 +1,1 @@
+Scala extensions for the Storm distributed computation system. Tormenta adds a type-safe wrapper over Storm's Kafka and Kestrel spouts. This type safety allows the user to push mapping and filtering transformations down to the level of the spout itsel
