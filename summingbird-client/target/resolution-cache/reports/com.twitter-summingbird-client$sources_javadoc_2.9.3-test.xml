@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.twitter"
+		module="summingbird-client$sources_javadoc_2.9.3"
+		revision="0.3.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140401162432"/>
+	<dependencies>
+		<module organisation="com.twitter" name="storehaus-algebra_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035242" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3362" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="storehaus-algebra_2.9.3" type="jar" ext="jar" status="no" details="" size="192710" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/jars/storehaus-algebra_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0.jar"/>
+					</artifact>
+					<artifact name="storehaus-algebra_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="372296" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/docs/storehaus-algebra_2.9.3-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="storehaus-algebra_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25147" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/srcs/storehaus-algebra_2.9.3-0.8.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-bijection_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2954" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebird-bijection_2.9.3" type="jar" ext="jar" status="no" details="" size="21544" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/jars/algebird-bijection_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1.jar"/>
+					</artifact>
+					<artifact name="algebird-bijection_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="272245" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/docs/algebird-bijection_2.9.3-0.3.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="algebird-bijection_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2066" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/srcs/algebird-bijection_2.9.3-0.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="storehaus-core_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3351" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="storehaus-core_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="413116" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/docs/storehaus-core_2.9.3-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="storehaus-core_2.9.3" type="jar" ext="jar" status="no" details="" size="279310" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/jars/storehaus-core_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0.jar"/>
+					</artifact>
+					<artifact name="storehaus-core_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36240" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/srcs/storehaus-core_2.9.3-0.8.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="bijection-util_2.9.3">
+			<revision name="0.6.0" status="release" pubdate="20131207023024" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3067" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="bijection-util_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="259254" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/docs/bijection-util_2.9.3-0.6.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="bijection-util_2.9.3" type="jar" ext="jar" status="no" details="" size="27201" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/jars/bijection-util_2.9.3-0.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0.jar"/>
+					</artifact>
+					<artifact name="bijection-util_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3221" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/srcs/bijection-util_2.9.3-0.6.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="storehaus-cache_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035239" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2778" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="storehaus-cache_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16383" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/srcs/storehaus-cache_2.9.3-0.8.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0-sources.jar"/>
+					</artifact>
+					<artifact name="storehaus-cache_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="386785" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/docs/storehaus-cache_2.9.3-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="storehaus-cache_2.9.3" type="jar" ext="jar" status="no" details="" size="164422" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/jars/storehaus-cache_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-util_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030051" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2934" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebird-util_2.9.3" type="jar" ext="jar" status="no" details="" size="27905" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/jars/algebird-util_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1.jar"/>
+					</artifact>
+					<artifact name="algebird-util_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="271500" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/docs/algebird-util_2.9.3-0.3.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="algebird-util_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4521" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/srcs/algebird-util_2.9.3-0.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.9.2">
+			<revision name="6.3.0" status="release" pubdate="20130406083300" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3649" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/ivy-6.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="6.3.0" rev-constraint-default="6.3.0" rev-constraint-dynamic="6.3.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="util-core_2.9.2" type="jar" ext="jar" status="no" details="" size="759776" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/jars/util-core_2.9.2-6.3.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0.jar"/>
+					</artifact>
+					<artifact name="util-core_2.9.2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="835347" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/docs/util-core_2.9.2-6.3.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="util-core_2.9.2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89310" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/srcs/util-core_2.9.2-6.3.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="summingbird-batch_2.9.3">
+			<revision name="0.3.1" status="integration" pubdate="20140401162431" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="bijection-core_2.9.3">
+			<revision name="0.6.0" status="release" pubdate="20131207023041" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3021" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="bijection-core_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="531224" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/docs/bijection-core_2.9.3-0.6.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="bijection-core_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47032" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/srcs/bijection-core_2.9.3-0.6.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0-sources.jar"/>
+					</artifact>
+					<artifact name="bijection-core_2.9.3" type="jar" ext="jar" status="no" details="" size="1736227" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/jars/bijection-core_2.9.3-0.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-core_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030058" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebird-core_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="112092" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/srcs/algebird-core_2.9.3-0.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="algebird-core_2.9.3" type="jar" ext="jar" status="no" details="" size="2326352" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/jars/algebird-core_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1.jar"/>
+					</artifact>
+					<artifact name="algebird-core_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1660741" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/docs/algebird-core_2.9.3-0.3.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="0.6.6" status="release" pubdate="20121212193200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/javaewah/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3921" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40950" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/srcs/JavaEWAH-0.6.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6-sources.jar"/>
+					</artifact>
+					<artifact name="JavaEWAH" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="155886" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/docs/JavaEWAH-0.6.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="JavaEWAH" type="jar" ext="jar" status="no" details="" size="56982" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2_2.9.3">
+			<revision name="1.12.4.1" status="release" pubdate="20130313184914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3443" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2_2.9.3/ivy-1.12.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.3/1.12.4.1/specs2_2.9.3-1.12.4.1.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="1.12.4.1" rev-constraint-default="1.12.4.1" rev-constraint-dynamic="1.12.4.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="specs2_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="541917" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2_2.9.3/srcs/specs2_2.9.3-1.12.4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.3/1.12.4.1/specs2_2.9.3-1.12.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="specs2_2.9.3" type="jar" ext="jar" status="no" details="" size="6624044" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2_2.9.3/jars/specs2_2.9.3-1.12.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.3/1.12.4.1/specs2_2.9.3-1.12.4.1.jar"/>
+					</artifact>
+					<artifact name="specs2_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3681050" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2_2.9.3/docs/specs2_2.9.3-1.12.4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.3/1.12.4.1/specs2_2.9.3-1.12.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-core_2.9.3">
+			<revision name="6.0.1" status="release" pubdate="20130304044814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.3/ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.3/6.0.1/specs2-scalaz-core_2.9.3-6.0.1.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-core_2.9.3" type="jar" ext="jar" status="no" details="" size="4651176" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.3/jars/specs2-scalaz-core_2.9.3-6.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.3/6.0.1/specs2-scalaz-core_2.9.3-6.0.1.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1809190" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.3/docs/specs2-scalaz-core_2.9.3-6.0.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.3/6.0.1/specs2-scalaz-core_2.9.3-6.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="139075" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.3/srcs/specs2-scalaz-core_2.9.3-6.0.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.3/6.0.1/specs2-scalaz-core_2.9.3-6.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.6.6" status="release" pubdate="20120611201226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="4575" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9711" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10319" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.6.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="51116" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-log4j12/docs/slf4j-log4j12-1.6.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526151339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3514" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="489884" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/log4j/log4j/jars/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+					<artifact name="log4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1491397" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.9.3">
+			<revision name="1.10.0" status="release" pubdate="20130319133210" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scalacheck/scalacheck_2.9.3/ivy-1.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.9.3/1.10.0/scalacheck_2.9.3-1.10.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="1.10.0" rev-constraint-default="1.10.0" rev-constraint-dynamic="1.10.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="scalacheck_2.9.3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32048" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scalacheck/scalacheck_2.9.3/srcs/scalacheck_2.9.3-1.10.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.9.3/1.10.0/scalacheck_2.9.3-1.10.0-sources.jar"/>
+					</artifact>
+					<artifact name="scalacheck_2.9.3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="440979" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scalacheck/scalacheck_2.9.3/docs/scalacheck_2.9.3-1.10.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.9.3/1.10.0/scalacheck_2.9.3-1.10.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalacheck_2.9.3" type="jar" ext="jar" status="no" details="" size="817968" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scalacheck/scalacheck_2.9.3/jars/scalacheck_2.9.3-1.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.9.3/1.10.0/scalacheck_2.9.3-1.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.6" status="release" pubdate="20120611201148" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="4409" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="178569" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.6.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26176" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46670" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.6.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.3" status="release" pubdate="20130228225533" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client$sources_javadoc_2.9.3" conf="test, compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="21942976" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.9.3-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="9039572" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1200431" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.9.3-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

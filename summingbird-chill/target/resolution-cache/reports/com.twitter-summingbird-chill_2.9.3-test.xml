@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140319142033"/>
+		date="20140401161254"/>
 	<dependencies>
 		<module organisation="com.twitter" name="chill-bijection_2.9.3">
 			<revision name="0.3.5" status="release" pubdate="20131106061708" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
@@ -130,7 +130,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-batch_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142032" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="5">
+			<revision name="0.3.1" status="integration" pubdate="20140401161246" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="5">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-chill_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<artifacts>
@@ -157,7 +157,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-core_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142030" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+			<revision name="0.3.1" status="integration" pubdate="20140401161245" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-chill_2.9.3" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<artifacts>

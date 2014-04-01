@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140319142032"/>
+		date="20140401161246"/>
 	<dependencies>
 		<module organisation="com.twitter" name="bijection-core_2.9.3">
 			<revision name="0.6.0" status="release" pubdate="20131207023041" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">

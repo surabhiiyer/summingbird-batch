@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: storm:jgrapht:0.8.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/storm/jgrapht/jars/jgrapht-0.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

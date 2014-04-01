@@ -22,7 +22,7 @@ object ScaldingRunner {
   val waitingState = HDFSState(JobDir + "/waitstate", startTime = Some(Timestamp(now - 2 * MillisInHour)), numBatches = 3)
   
   val src: Producer[Scalding, String] = Producer.source[Scalding, String](Scalding.pipeFactoryExact(_ => TextLine(JobDir + "/input.txt")))
-  val versionedStore = VersionedStore[String, Long](JobDir + "/store.txt")
+  val versionedStore = VersionedStore[String, Long]("/Users/surabhi.ravishankar/summingbird-batch/summingbird-example/src/main/scala/com/twitter/summingbird/example/store")
   val store = new InitialBatchedStore(batcher.currentBatch - 2L, versionedStore)
 
 //	val vbs = new VersionedBatchStore[String, Long, String, Long](inout, 3, batcher)(null)(identity)

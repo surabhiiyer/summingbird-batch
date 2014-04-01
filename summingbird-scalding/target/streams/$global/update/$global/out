@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.twitter#summingbird-scalding_2.9.3;0.3.1 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->org.scala-lang#scala-library;2.9.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30234f8a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3962a02c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.3 in sbt-chain[0m
@@ -797,19 +797,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#bijection-json_2.9.3;0.6.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.twitter#bijection-json_2.9.3;0.6.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twitter#bijection-json_2.9.3;0.6.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/bijection-json_2.9.3/0.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.twitter#bijection-json_2.9.3;0.6.0[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.twitter#bijection-json_2.9.3;0.6.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom (0.6.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twitter#bijection-json_2.9.3;0.6.0!bijection-json_2.9.3.pom(pom.original) (3006ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/bijection-json_2.9.3/0.6.0/bundles/bijection-json_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.twitter#bijection-json_2.9.3;0.6.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twitter#bijection-json_2.9.3;0.6.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.twitter#bijection-json_2.9.3;0.6.0[0m
+[0m[[0mdebug[0m] [0m	found com.twitter#bijection-json_2.9.3;0.6.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#bijection-json_2.9.3;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#bijection-json_2.9.3;0.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#bijection-json_2.9.3;0.6.0->com.twitter#bijection-core_2.9.3;0.6.0 [compile->master(*)][0m
@@ -888,19 +878,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-core_2.9.3;0.9.0rc4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.twitter#scalding-core_2.9.3;0.9.0rc4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twitter#scalding-core_2.9.3;0.9.0rc4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-core_2.9.3/0.9.0rc4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.twitter#scalding-core_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.twitter#scalding-core_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom (0.9.0rc4)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-core_2.9.3;0.9.0rc4!scalding-core_2.9.3.pom(pom.original) (1453ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-core_2.9.3/0.9.0rc4/jars/scalding-core_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	found com.twitter#scalding-core_2.9.3;0.9.0rc4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twitter#scalding-core_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.twitter#scalding-core_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	found com.twitter#scalding-core_2.9.3;0.9.0rc4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-core_2.9.3;0.9.0rc4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-core_2.9.3;0.9.0rc4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-core_2.9.3;0.9.0rc4->com.twitter#scalding-args_2.9.3;0.9.0rc4 [compile->master(*)][0m
@@ -919,19 +899,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-core_2.9.3;0.9.0rc4->com.twitter#scalding-date_2.9.3;0.9.0rc4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.twitter#scalding-date_2.9.3;0.9.0rc4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twitter#scalding-date_2.9.3;0.9.0rc4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-date_2.9.3/0.9.0rc4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.twitter#scalding-date_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.twitter#scalding-date_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom (0.9.0rc4)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-date_2.9.3;0.9.0rc4!scalding-date_2.9.3.pom(pom.original) (1514ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-date_2.9.3/0.9.0rc4/jars/scalding-date_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	found com.twitter#scalding-date_2.9.3;0.9.0rc4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twitter#scalding-date_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.twitter#scalding-date_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	found com.twitter#scalding-date_2.9.3;0.9.0rc4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-core_2.9.3;0.9.0rc4->com.twitter#scalding-date_2.9.3;0.9.0rc4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-date_2.9.3;0.9.0rc4->org.scala-lang#scala-library;2.9.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-date_2.9.3;0.9.0rc4->org.scala-lang#scala-library;2.9.3 [compile->compile(*)][0m
@@ -1176,19 +1146,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-commons_2.9.3;0.9.0rc4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.twitter#scalding-commons_2.9.3;0.9.0rc4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twitter#scalding-commons_2.9.3;0.9.0rc4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-commons_2.9.3/0.9.0rc4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.twitter#scalding-commons_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.twitter#scalding-commons_2.9.3;0.9.0rc4[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom (0.9.0rc4)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-commons_2.9.3;0.9.0rc4!scalding-commons_2.9.3.pom(pom.original) (1983ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/surabhi.ravishankar/.ivy2/local/com.twitter/scalding-commons_2.9.3/0.9.0rc4/jars/scalding-commons_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	found com.twitter#scalding-commons_2.9.3;0.9.0rc4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twitter#scalding-commons_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.twitter#scalding-commons_2.9.3;0.9.0rc4[0m
+[0m[[0mdebug[0m] [0m	found com.twitter#scalding-commons_2.9.3;0.9.0rc4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-commons_2.9.3;0.9.0rc4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-scalding_2.9.3;0.3.1->com.twitter#scalding-commons_2.9.3;0.9.0rc4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#scalding-commons_2.9.3;0.9.0rc4->com.twitter#scalding-args_2.9.3;0.9.0rc4 [compile->master(*)][0m
@@ -8077,28 +8037,13 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#algebird-core_2.9.3;0.3.1!algebird-core_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#algebird-util_2.9.3;0.3.1!algebird-util_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#algebird-bijection_2.9.3;0.3.1!algebird-bijection_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/bijection-json_2.9.3/0.6.0/bijection-json_2.9.3-0.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#bijection-json_2.9.3;0.6.0!bijection-json_2.9.3.jar(bundle) (1970ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#bijection-json_2.9.3;0.6.0!bijection-json_2.9.3.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill_2.9.3;0.3.5!chill_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-hadoop;0.3.5!chill-hadoop.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-bijection_2.9.3;0.3.5!chill-bijection_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-core_2.9.3/0.9.0rc4/scalding-core_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-core_2.9.3;0.9.0rc4!scalding-core_2.9.3.jar (20116ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-commons_2.9.3/0.9.0rc4/scalding-commons_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-commons_2.9.3;0.9.0rc4!scalding-commons_2.9.3.jar (2932ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#scalding-core_2.9.3;0.9.0rc4!scalding-core_2.9.3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#scalding-commons_2.9.3;0.9.0rc4!scalding-commons_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.googlecode.javaewah#JavaEWAH;0.6.6!JavaEWAH.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#bijection-core_2.9.3;0.6.0!bijection-core_2.9.3.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-java;0.3.5!chill-java.jar[0m
@@ -8145,12 +8090,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.8.1!jackson-mapper-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.8.1!jackson-core-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#scalding-args_2.9.3;0.9.0rc4!scalding-args_2.9.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twitter/scalding-date_2.9.3/0.9.0rc4/scalding-date_2.9.3-0.9.0rc4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#scalding-date_2.9.3;0.9.0rc4!scalding-date_2.9.3.jar (1598ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#scalding-date_2.9.3;0.9.0rc4!scalding-date_2.9.3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] cascading#cascading-core;2.2.0!cascading-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] cascading#cascading-local;2.2.0!cascading-local.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] cascading#cascading-hadoop;2.2.0!cascading-hadoop.jar[0m
@@ -8179,7 +8119,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.9.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.9.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 27563ms :: artifacts dl 27597ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 55269ms :: artifacts dl 4072ms[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 compile produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 runtime produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 test produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-test.xml[0m
@@ -8193,5 +8133,5 @@
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 docs produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 pom produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-scalding_2.9.3;0.3.1 scala-tool produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-scalding/target/resolution-cache/reports/com.twitter-summingbird-scalding_2.9.3-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (27563ms resolve - 27597ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (55269ms resolve - 4072ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

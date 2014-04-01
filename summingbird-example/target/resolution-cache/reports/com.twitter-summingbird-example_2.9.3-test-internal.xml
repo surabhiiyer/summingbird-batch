@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140319142129"/>
+		date="20140401161608"/>
 	<dependencies>
 		<module organisation="com.twitter" name="storehaus-memcache_2.9.3">
 			<revision name="0.8.0" status="release" pubdate="20131207035247" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="120">
@@ -600,9 +600,9 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="util-core_2.9.2">
-			<revision name="6.3.7" status="release" pubdate="20130625214312" resolver="public" artresolver="public" homepage="https://github.com/twitter/util" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="129">
+			<revision name="6.3.7" status="release" pubdate="20130625214312" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="129">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3225" time="1239" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/ivy-6.3.7.xml" searched="true" original-local-location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/ivy-6.3.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.7/util-core_2.9.2-6.3.7.pom"/>
+				<metadata-artifact status="no" details="" size="3649" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/ivy-6.3.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.7/util-core_2.9.2-6.3.7.pom"/>
 				<caller organisation="com.twitter" name="util-app_2.9.2" conf="compile, runtime" rev="6.3.7" rev-constraint-default="6.3.7" rev-constraint-dynamic="6.3.7" callerrev="6.3.7"/>
 				<caller organisation="com.twitter" name="algebird-util_2.9.3" conf="default, compile, runtime, master" rev="6.3.0" rev-constraint-default="6.3.0" rev-constraint-dynamic="6.3.0" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="util-hashing_2.9.2" conf="compile, runtime" rev="6.3.7" rev-constraint-default="6.3.7" rev-constraint-dynamic="6.3.7" callerrev="6.3.7"/>
@@ -612,7 +612,7 @@
 				<caller organisation="com.twitter" name="finagle-core_2.9.2" conf="compile, runtime" rev="6.3.7" rev-constraint-default="6.3.7" rev-constraint-dynamic="6.3.7" callerrev="6.5.1"/>
 				<caller organisation="com.twitter" name="util-jvm_2.9.2" conf="compile, runtime" rev="6.3.7" rev-constraint-default="6.3.7" rev-constraint-dynamic="6.3.7" callerrev="6.3.7"/>
 				<artifacts>
-					<artifact name="util-core_2.9.2" type="jar" ext="jar" status="successful" details="" size="791096" time="3728" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/jars/util-core_2.9.2-6.3.7.jar">
+					<artifact name="util-core_2.9.2" type="jar" ext="jar" status="no" details="" size="791096" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/jars/util-core_2.9.2-6.3.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.7/util-core_2.9.2-6.3.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -640,12 +640,12 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="tormenta-twitter_2.9.3">
-			<revision name="0.6.0" status="release" pubdate="20131207053223" resolver="public" artresolver="public" homepage="https://github.com/twitter/tormenta" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="116">
+			<revision name="0.6.0" status="release" pubdate="20131207053223" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/tormenta" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="116">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2803" time="1972" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-twitter_2.9.3/ivy-0.6.0.xml" searched="true" original-local-location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-twitter_2.9.3/ivy-0.6.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/tormenta-twitter_2.9.3/0.6.0/tormenta-twitter_2.9.3-0.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="3335" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-twitter_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/tormenta-twitter_2.9.3/0.6.0/tormenta-twitter_2.9.3-0.6.0.pom"/>
 				<caller organisation="com.twitter" name="summingbird-example_2.9.3" conf="test-internal, test, optional, compile, provided, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
 				<artifacts>
-					<artifact name="tormenta-twitter_2.9.3" type="jar" ext="jar" status="successful" details="" size="10412" time="1425" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-twitter_2.9.3/jars/tormenta-twitter_2.9.3-0.6.0.jar">
+					<artifact name="tormenta-twitter_2.9.3" type="jar" ext="jar" status="no" details="" size="10412" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-twitter_2.9.3/jars/tormenta-twitter_2.9.3-0.6.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/tormenta-twitter_2.9.3/0.6.0/tormenta-twitter_2.9.3-0.6.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -676,12 +676,12 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="tormenta-core_2.9.3">
-			<revision name="0.6.0" status="release" pubdate="20131207053229" resolver="public" artresolver="public" homepage="https://github.com/twitter/tormenta" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="117">
+			<revision name="0.6.0" status="release" pubdate="20131207053229" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/tormenta" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="117">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2435" time="1504" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-core_2.9.3/ivy-0.6.0.xml" searched="true" original-local-location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-core_2.9.3/ivy-0.6.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/tormenta-core_2.9.3/0.6.0/tormenta-core_2.9.3-0.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="3041" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-core_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/tormenta-core_2.9.3/0.6.0/tormenta-core_2.9.3-0.6.0.pom"/>
 				<caller organisation="com.twitter" name="tormenta-twitter_2.9.3" conf="default, compile, runtime, master" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="tormenta-core_2.9.3" type="jar" ext="jar" status="successful" details="" size="48019" time="1716" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-core_2.9.3/jars/tormenta-core_2.9.3-0.6.0.jar">
+					<artifact name="tormenta-core_2.9.3" type="jar" ext="jar" status="no" details="" size="48019" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/tormenta-core_2.9.3/jars/tormenta-core_2.9.3-0.6.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/tormenta-core_2.9.3/0.6.0/tormenta-core_2.9.3-0.6.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -1158,7 +1158,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-scalding_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142034" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="5">
+			<revision name="0.3.1" status="integration" pubdate="20140401161403" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="5">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-example_2.9.3" conf="test-internal, test, optional, compile, provided, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<artifacts>
@@ -1516,8 +1516,8 @@
 				<caller organisation="storm" name="storm" conf="default, compile, runtime, master" rev="13.0" rev-constraint-default="13.0" rev-constraint-dynamic="13.0" callerrev="0.9.0-wip15"/>
 				<caller organisation="com.twitter" name="finagle-memcached_2.9.2" conf="compile, runtime" rev="13.0" rev-constraint-default="13.0" rev-constraint-dynamic="13.0" callerrev="6.5.1"/>
 				<caller organisation="com.twitter.common.zookeeper" name="client" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.0.35"/>
-				<caller organisation="com.twitter.common" name="quantity" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.0.50"/>
 				<caller organisation="com.twitter.elephantbird" name="elephant-bird-core" conf="compile, runtime" rev="11.0.1" rev-constraint-default="11.0.1" rev-constraint-dynamic="11.0.1" callerrev="3.0.6"/>
+				<caller organisation="com.twitter.common" name="quantity" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.0.50"/>
 				<caller organisation="com.twitter.common.zookeeper" name="server-set" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.42"/>
 				<caller organisation="com.twitter" name="util-collection_2.9.2" conf="compile, runtime" rev="11.0.2" rev-constraint-default="11.0.2" rev-constraint-dynamic="11.0.2" callerrev="6.3.7"/>
 				<caller organisation="com.twitter.common" name="collections" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.0.53"/>
@@ -2228,7 +2228,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-chill_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142033" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="6">
+			<revision name="0.3.1" status="integration" pubdate="20140401161403" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="6">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-scalding_2.9.3" conf="compile" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<artifacts>
@@ -2383,7 +2383,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-batch_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142032" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="7">
+			<revision name="0.3.1" status="integration" pubdate="20140401161403" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="7">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-scalding_2.9.3" conf="compile" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="summingbird-chill_2.9.3" conf="compile" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
@@ -2426,7 +2426,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="summingbird-core_2.9.3">
-			<revision name="0.3.1" status="integration" pubdate="20140319142030" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+			<revision name="0.3.1" status="integration" pubdate="20140401161403" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.twitter" name="summingbird-scalding_2.9.3" conf="compile" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="summingbird-example_2.9.3" conf="test-internal, test, optional, compile, provided, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
@@ -2679,8 +2679,8 @@
 				<caller organisation="com.twitter" name="util-core_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.3.0"/>
 				<caller organisation="com.twitter" name="finagle-core_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.5.1"/>
 				<caller organisation="com.twitter" name="util-jvm_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.3.7"/>
-				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="bijection-json_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.6.0"/>
+				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="bijection-core_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.6.0"/>
 				<caller organisation="com.twitter" name="algebird-bijection_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
 				<caller organisation="com.twitter" name="chill-bijection_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.5"/>

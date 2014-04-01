@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140319142030"/>
+		date="20140401161251"/>
 	<dependencies>
 		<module organisation="com.twitter" name="algebird-core_2.9.3">
 			<revision name="0.3.1" status="release" pubdate="20131207030058" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.twitter:storehaus-algebra_2.9.3:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/jars/storehaus-algebra_2.9.3-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/docs/storehaus-algebra_2.9.3-0.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/srcs/storehaus-algebra_2.9.3-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.twitter#summingbird-core_2.9.3;0.3.1 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-core_2.9.3;0.3.1->org.scala-lang#scala-library;2.9.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d2d4fcb[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@533f785b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.3 in sbt-chain[0m
@@ -17,7 +17,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twitter#summingbird-core_2.9.3;0.3.1->org.slf4j#slf4j-api;1.6.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.6 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mno default cache defined: set to /Users/surabhi.ravishankar/.ivy2/cache[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.6.6[0m
 [0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.6 in sbt-chain[0m
@@ -360,7 +359,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.9.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.9.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1544ms :: artifacts dl 43ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1721ms :: artifacts dl 38ms[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 compile produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 runtime produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 test produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-test.xml[0m
@@ -374,5 +373,5 @@
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 docs produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 pom produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.twitter#summingbird-core_2.9.3;0.3.1 scala-tool produced in /Users/surabhi.ravishankar/summingbird-batch/summingbird-core/target/resolution-cache/reports/com.twitter-summingbird-core_2.9.3-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1544ms resolve - 43ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1721ms resolve - 38ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

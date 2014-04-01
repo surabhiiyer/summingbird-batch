@@ -2498,7 +2498,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7339ms :: artifacts dl 1514ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 19823ms :: artifacts dl 586ms[0m
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT compile produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT runtime produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT test produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-test.xml[0m
@@ -2512,5 +2512,5 @@
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT docs produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT pom produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#summingbird-batch-build;0.1-SNAPSHOT scala-tool produced in /Users/surabhi.ravishankar/summingbird-batch/project/target/resolution-cache/reports/default-summingbird-batch-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7339ms resolve - 1514ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (19823ms resolve - 586ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

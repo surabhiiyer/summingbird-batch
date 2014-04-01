@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.specs2:specs2_2.9.3:1.12.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.9.3/jars/specs2_2.9.3-1.12.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.9.3/docs/specs2_2.9.3-1.12.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.9.3/srcs/specs2_2.9.3-1.12.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

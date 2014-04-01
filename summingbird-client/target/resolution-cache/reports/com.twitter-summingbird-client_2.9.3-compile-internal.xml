@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.twitter"
+		module="summingbird-client_2.9.3"
+		revision="0.3.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140401161923"/>
+	<dependencies>
+		<module organisation="com.twitter" name="storehaus-algebra_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035242" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3362" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="storehaus-algebra_2.9.3" type="jar" ext="jar" status="no" details="" size="192710" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-algebra_2.9.3/jars/storehaus-algebra_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.9.3/0.8.0/storehaus-algebra_2.9.3-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-bijection_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2954" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="storehaus-algebra_2.9.3" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="algebird-bijection_2.9.3" type="jar" ext="jar" status="no" details="" size="21544" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-bijection_2.9.3/jars/algebird-bijection_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-bijection_2.9.3/0.3.1/algebird-bijection_2.9.3-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="storehaus-core_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3351" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="storehaus-algebra_2.9.3" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="storehaus-core_2.9.3" type="jar" ext="jar" status="no" details="" size="279310" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-core_2.9.3/jars/storehaus-core_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-core_2.9.3/0.8.0/storehaus-core_2.9.3-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="bijection-util_2.9.3">
+			<revision name="0.6.0" status="release" pubdate="20131207023024" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3067" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0.pom"/>
+				<caller organisation="com.twitter" name="storehaus-core_2.9.3" conf="default, compile, runtime, master" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="bijection-util_2.9.3" type="bundle" ext="jar" status="no" details="" size="27201" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-util_2.9.3/bundles/bijection-util_2.9.3-0.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-util_2.9.3/0.6.0/bijection-util_2.9.3-0.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="storehaus-cache_2.9.3">
+			<revision name="0.8.0" status="release" pubdate="20131207035239" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/storehaus" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2778" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0.pom"/>
+				<caller organisation="com.twitter" name="storehaus-core_2.9.3" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="storehaus-cache_2.9.3" type="jar" ext="jar" status="no" details="" size="164422" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/storehaus-cache_2.9.3/jars/storehaus-cache_2.9.3-0.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/storehaus-cache_2.9.3/0.8.0/storehaus-cache_2.9.3-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-util_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030051" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2934" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="storehaus-algebra_2.9.3" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebird-util_2.9.3" type="jar" ext="jar" status="no" details="" size="27905" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-util_2.9.3/jars/algebird-util_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-util_2.9.3/0.3.1/algebird-util_2.9.3-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.9.2">
+			<revision name="6.3.0" status="release" pubdate="20130406083300" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3649" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/ivy-6.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0.pom"/>
+				<caller organisation="com.twitter" name="algebird-util_2.9.3" conf="default, compile, runtime, master" rev="6.3.0" rev-constraint-default="6.3.0" rev-constraint-dynamic="6.3.0" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="bijection-util_2.9.3" conf="compile, runtime" rev="6.3.0" rev-constraint-default="6.3.0" rev-constraint-dynamic="6.3.0" callerrev="0.6.0"/>
+				<artifacts>
+					<artifact name="util-core_2.9.2" type="jar" ext="jar" status="no" details="" size="759776" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/util-core_2.9.2/jars/util-core_2.9.2-6.3.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-core_2.9.2/6.3.0/util-core_2.9.2-6.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="summingbird-batch_2.9.3">
+			<revision name="0.3.1" status="integration" pubdate="20140401161923" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="bijection-core_2.9.3">
+			<revision name="0.6.0" status="release" pubdate="20131207023041" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3021" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0.pom"/>
+				<caller organisation="com.twitter" name="algebird-bijection_2.9.3" conf="compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="storehaus-core_2.9.3" conf="default, compile, runtime, master" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="bijection-util_2.9.3" conf="compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.6.0"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="bijection-core_2.9.3" type="bundle" ext="jar" status="no" details="" size="1736227" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/bijection-core_2.9.3/bundles/bijection-core_2.9.3-0.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.9.3/0.6.0/bijection-core_2.9.3-0.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="algebird-core_2.9.3">
+			<revision name="0.3.1" status="release" pubdate="20131207030058" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1.pom"/>
+				<caller organisation="com.twitter" name="algebird-util_2.9.3" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="algebird-bijection_2.9.3" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="storehaus-algebra_2.9.3" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebird-core_2.9.3" type="jar" ext="jar" status="no" details="" size="2326352" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.twitter/algebird-core_2.9.3/jars/algebird-core_2.9.3-0.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.9.3/0.3.1/algebird-core_2.9.3-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="0.6.6" status="release" pubdate="20121212193200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/javaewah/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3921" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6.pom"/>
+				<caller organisation="com.twitter" name="algebird-core_2.9.3" conf="default, compile, runtime, master" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="jar" ext="jar" status="no" details="" size="56982" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.6.6/JavaEWAH-0.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.6" status="release" pubdate="20120611201148" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="4409" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.pom"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26176" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.3" status="release" pubdate="20130228225533" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3.pom"/>
+				<caller organisation="com.twitter" name="bijection-core_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.6.0"/>
+				<caller organisation="com.twitter" name="algebird-util_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="algebird-bijection_2.9.3" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="storehaus-algebra_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="storehaus-core_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="util-core_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.3.0"/>
+				<caller organisation="com.twitter" name="bijection-util_2.9.3" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.6.0"/>
+				<caller organisation="com.twitter" name="storehaus-cache_2.9.3" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="summingbird-client_2.9.3" conf="optional, compile, provided, compile-internal" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="algebird-core_2.9.3" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<caller organisation="com.twitter" name="summingbird-batch_2.9.3" conf="compile" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="9039572" time="0" location="/Users/surabhi.ravishankar/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.3/scala-library-2.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.9.3"/>
+				<caller organisation="com.twitter" name="util-core_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.3.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
